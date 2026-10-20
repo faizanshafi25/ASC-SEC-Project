@@ -1,40 +1,50 @@
 # ✦ ASC SEC Project — Personal Portfolio Website
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Project-College%20Assignment-8B7355?style=for-the-badge" alt="College Project">
-  <img src="https://img.shields.io/badge/HTML-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
-  <img src="https://img.shields.io/badge/CSS-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+
+  <a href="https://faizanshafi25.github.io/ASC-SEC-Project/">
+    <img src="https://img.shields.io/badge/🌐_VIEW_LIVE_WEBSITE-Visit_Portfolio-A96543?style=for-the-badge" alt="View Live Portfolio">
+  </a>
+
 </p>
 
 <p align="center">
-  A personal portfolio website developed as part of a college SEC assignment, using HTML and CSS.
+  A personal portfolio website built with HTML and CSS as part of a college SEC assignment.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-Structure-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-Styling-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/Git-Version_Control-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/Status-In_Progress-8B7355?style=flat-square" alt="Project Status">
 </p>
 
 ---
 
-## ◈ Overview
+## ◈ About the Project
 
-This repository contains my personal portfolio website, created as a college project to practise front-end web development and apply the fundamentals of HTML and CSS.
+This repository contains my personal portfolio website, developed as part of my college SEC project. The goal is to practise front-end web development by using HTML to structure a webpage and CSS to style and organise its content.
 
-The website presents a short introduction, personal information, skills, social profiles, and a contact section in a clean, organised layout.
+The website introduces me, highlights my current technical skills, provides links to my social profiles, and includes a contact section.
 
 ## ✧ Features
 
-- **Home Section** — Introduction and personal profile.
-- **About Me** — Background and quick facts.
-- **Skills Section** — Displays selected technical skills.
-- **Social Links** — Links to GitHub, LinkedIn, Instagram, and email.
-- **Contact Section** — Contact form interface.
-- **Responsive Styling** — CSS adjustments for smaller screens.
+- **Home Section** — A brief introduction and personal greeting.
+- **About Me** — Personal background and quick facts.
+- **Skills Section** — An overview of selected technical skills.
+- **Social Links** — Quick access to my online profiles and email.
+- **Contact Section** — A form interface for entering contact details and messages.
+- **Responsive Layout** — CSS adjustments for smaller screens.
+- **Navigation** — Links to move between sections of the website.
 
 ## ⌘ Technologies Used
 
 | Technology | Purpose |
 |:--|:--|
-| HTML5 | Page structure and content |
+| HTML5 | Structuring the webpage |
 | CSS3 | Styling, layout, and responsive design |
-| Git | Version control |
-| GitHub | Source code hosting |
+| Git | Tracking changes during development |
+| GitHub | Hosting the project repository |
 
 ## ▣ Project Structure
 
@@ -43,35 +53,30 @@ ASC-SEC-Project/
 ├── index.html
 ├── style.css
 ├── images/
-│   ├── favicon.ico
-│   ├── github.svg
-│   ├── gmail.svg
-│   ├── instagram.svg
-│   ├── html5.svg
-│   ├── css.svg
-│   └── ...
+│   └── Website image assets
 └── README.md
 ```
 
-*The image filenames shown above are examples of the assets used in the project; the folder may contain additional files.*
+*The images folder contains the SVG icons and other image assets used by the website.*
 
-## ◉ Run Locally
+## ◉ View the Website Locally
 
 1. Clone or download this repository.
 2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in your browser, or use the Live Server extension.
-4. Edit `style.css` to customise the appearance.
+3. Open `index.html` in your browser, or use the **Live Server** extension.
+4. Edit `style.css` to experiment with the website's appearance.
 
-## ⚠️ Note
+## ⚠️ Important Note
 
-This project is intended for educational purposes. The contact form is a front-end interface and does not send messages without a form-processing service or backend.
+The contact form is currently a front-end interface. It does not send messages unless a backend or a form-processing service is connected.
 
-## ✦ Author
+## ✦ About Me
 
-**Faizan Shafi**
+**Faizan Shafi**  
+BCA Student | Aspiring Developer
 
-- GitHub: [@faizanshafi25](https://github.com/faizanshafi25)
-- LinkedIn: [Faizan Shafi](https://www.linkedin.com/in/faizan-shafi-a198a6364/)
+- **GitHub:** [@faizanshafi25](https://github.com/faizanshafi25)
+- **LinkedIn:** [Faizan Shafi](https://www.linkedin.com/in/faizan-shafi-a198a6364/)
 
 ---
 
