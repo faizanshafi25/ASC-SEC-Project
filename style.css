@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F4EF;
+    color: #292B2D;
+    line-height: 1.7;
+}
+
+
+#navbar {
+    background-color: #292B2D;
+    padding: 18px 8%;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+#navbar a {
+    color: #F7F4EF;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#navbar a:hover {
+    color: #D49A78;
+}
+
+
+
+#herosection {
+    padding: 100px 8% 85px;
+    min-height: 480px;
+    background-color: #EEE8DF;
+}
+
+#herosection h3 {
+    font-size: 19px;
+    font-weight: normal;
+    margin: 8px 0;
+}
+
+#herosection h2 {
+    font-size: 58px;
+    line-height: 1.2;
+    margin: 15px 0;
+}
+
+#f1 {
+    color: #A96543;
+}
+
+#s1 {
+    color: #292B2D;
+}
+
+#herosection p {
+    max-width: 620px;
+    font-size: 17px;
+    margin: 20px 0 28px;
+}
+
+
+#herosection > a {
+    display: inline-block;
+    background-color: #A96543;
+    color: white;
+    padding: 11px 25px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#herosection > a:hover {
+    background-color: #855035;
+}
+
+
+.socialLinks {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: 28px;
+}
+
+.socialLinks img {
+    width: 28px;
+    height: 28px;
+}
+
+.socialLinks a:hover {
+    opacity: 0.65;
+}
+
+#aboutMe,
+#MySkills,
+#ContactME {
+    padding: 65px 8%;
+    border-top: 1px solid #DED7CE;
+    scroll-margin-top: 20px;
+}
+
+#aboutMe h2,
+#MySkills h2,
+#ContactME h2 {
+    font-size: 34px;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#aboutMe p,
+#MySkills > p,
+#ContactME > p {
+    max-width: 720px;
+    color: #625D57;
+}
+
+
+#abtMeImg {
+    float: left;
+    width: 35%;
+    max-width: 350px;
+    height: auto;
+    margin: 10px 35px 20px 0;
+    border-radius: 5px;
+}
+
+#aboutMe h3 {
+    margin-top: 20px;
+}
+
+#QuickFacts {
+    padding-left: 20px;
+}
+
+#QuickFacts li {
+    margin-bottom: 8px;
+}
+
+
+#aboutMe::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#MySkills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    padding: 0;
+    margin-top: 28px;
+}
+
+#MySkills li {
+    list-style: none;
+    width: 140px;
+    padding: 22px 15px;
+    text-align: center;
+    background-color: #FFFFFF;
+    border: 1px solid #E4DDD4;
+    border-radius: 5px;
+}
+
+#MySkills li img {
+    width: 35px;
+    height: 35px;
+}
+
+#MySkills li p {
+    margin: 8px 0 0;
+    color: #292B2D;
+    font-weight: bold;
+}
+
+
+#ContactME > a {
+    display: inline-block;
+    margin: 12px 16px 20px 0;
+}
+
+#ContactME > a img {
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+}
+
+#ContactME > a:hover {
+    opacity: 0.65;
+}
+
+#ContactME form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+#ContactME input,
+#ContactME textarea {
+    width: 100%;
+    padding: 12px 14px;
+    font-family: inherit;
+    font-size: 15px;
+    color: #292B2D;
+    background-color: #FFFFFF;
+    border: 1px solid #D8D0C7;
+    border-radius: 4px;
+}
+
+#ContactME input:focus,
+#ContactME textarea:focus {
+    outline: 1px solid #A96543;
+}
+
+#ContactME textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#ContactME button {
+    align-self: flex-start;
+    background-color: #A96543;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 26px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#ContactME button:hover {
+    background-color: #855035;
+}
+
+
+
+footer {
+    background-color: #292B2D;
+    color: #F7F4EF;
+    padding: 35px 8%;
+}
+
+footer h3 {
+    font-size: 23px;
+    margin-top: 0;
+}
+
+footer p {
+    color: #D1CBC3;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin: 20px 0;
+}
+
+footer nav a {
+    color: #F7F4EF;
+    text-decoration: none;
+}
+
+footer nav a:hover {
+    color: #D49A78;
+}
+
+footer > a {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer > a img {
+    width: 25px;
+    height: 25px;
+    filter: invert(1);
+}
+
+/* 
+   MOBILE LAYOUT
+*/
+
+@media (max-width: 600px) {
+
+    #navbar {
+        padding: 16px 6%;
+        gap: 22px;
+        flex-wrap: wrap;
+    }
+
+    #herosection {
+        padding: 60px 6%;
+        min-height: auto;
+    }
+
+    #herosection h2 {
+        font-size: 40px;
+    }
+
+    #herosection h3 {
+        font-size: 17px;
+    }
+
+    #herosection p {
+        font-size: 15px;
+    }
+
+    #aboutMe,
+    #MySkills,
+    #ContactME {
+        padding: 45px 6%;
+    }
+
+    #aboutMe h2,
+    #MySkills h2,
+    #ContactME h2 {
+        font-size: 29px;
+    }
+
+    #abtMeImg {
+        float: none;
+        width: 100%;
+        max-width: 350px;
+        margin: 20px 0;
+    }
+
+    #MySkills ul {
+        gap: 12px;
+    }
+
+    #MySkills li {
+        width: 115px;
+        padding: 16px 10px;
+    }
+
+    #ContactME form {
+        max-width: 100%;
+    }
+
+    footer {
+        padding: 30px 6%;
+    }
+}
